@@ -1,0 +1,627 @@
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    
+/*NAVIGASJON*/ 
+    .navigation_img{
+        width: 12%;
+        padding: 20px 0 0 15%;
+    }
+    
+    #navigation_bar{
+        margin: 40px 15% 0 0;
+    }
+    
+    #navigation_bar_close{
+        margin: 40px 15% 0 0;
+    }
+    
+    .navigation_nav{
+            padding-right: 15%;
+    }
+    
+    .navigation_text{
+        padding-left: 15%; 
+        z-index: 1;
+    }
+    
+    .navigation_text_p{
+        padding: 2% 20% 0 15%;
+        z-index: 1;
+    }
+    
+
+/*INDEX*/
+    .index_header{
+        padding-top: 100px;
+    }
+    
+    .index_header_text{ 
+        padding: 50px 40% 0 100px;
+    }
+    
+    .index_header_color{
+        width: 80%;
+    }
+    
+    .index_header_img{
+        width: 60%;
+        margin: 300px 0 0 40%;
+    }
+    
+    .index_body{
+        padding: 90% 15% 10% 15%;
+    }
+    
+    .index_cards{
+        margin: 50px 5% 0 5%;
+    }
+    
+    .index_facebook_cards{
+        padding: 150px 15% 200px 15%;
+    }
+    
+    .instapicGrid{
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+/*BEHANDLING*/ 
+    .behandling_img{
+        width: 70%;
+        padding-top: 270px;
+        padding-left: 30%;
+    }
+    
+    .behandling_header_color{
+        width: 85%;
+    }
+    
+    .behandling_text{ 
+        padding: 2% 30% 0 15%;
+    }
+    
+    .behandling_body{
+        padding: 55% 15% 5% 15%;
+    }
+    
+    .behandling_body_text{
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+    }
+    
+    #dropdown{
+        text-align: center;
+        margin: 2% 20%;
+    }
+    
+    #dropdown2{
+        text-align: center;
+        margin: 2% 20%;
+    }
+    
+    .behandling_color_2{
+        height: 600px;
+        width: 90%;
+        margin-left: 10%;
+    }
+    
+    .behandling_img_2{
+        width: 70%;
+        padding-top: 400px;
+    }
+    
+    .behandling_body_3{
+        padding-top: 70%;
+        padding-bottom: 30%;
+    }
+    
+    .behandling_body_text_3{
+        padding-top: 12%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    .behandling_img_3{
+        width: 70%;
+        padding-left: 30%;
+        padding-top: 300px;
+    }
+    
+    .behandling_color_3{
+        height: 500px;
+        width: 95%;
+        margin-top: 5%;
+    }
+
+    
+/*PRISER*/
+    
+    .priser_content{
+        padding: 700px 0 100px 0;
+    }
+    
+    
+    .header_priser_img{
+        width: 70%;
+        padding-left: 30%;
+    }
+    
+    .header_priser_text{
+        padding: 340px 20% 0 12%;
+    }
+    
+    .header_priser_color{
+        width: 100%;
+        height: 550px;
+    }
+    
+/*KONTAKT*/
+    
+        .header_kontakt{
+        display: inline-grid;
+        position: relative;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 2;
+        grid-gap: 10px;
+        margin: 100px 15%;
+    }
+    
+    
+    .header_text_priser{
+        grid-row: 1;
+        grid-column: 1/3;
+        padding-bottom: 20px;
+        padding-right: 35%;
+    }
+    
+    .header_img_kontakt{
+        grid-row: 2;
+    }
+    
+    .img_kontakt_1{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .content_om_kontakt{
+        display: block;
+        margin: 100px 15%;
+    }
+    
+    .om_img{
+        width: 100%;
+    }
+    
+    .om_text_kontakt{
+        padding-top: 30px;
+        padding-right: 30%;
+    }
+    
+    
+    .kontaktinfo_kontakt{
+        display: block;
+        margin: 100px 15% 200px 15%;
+    }
+    
+    .kontaktinfo{
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 150px;
+    }
+    
+    #map{
+        height: 250px;
+        width: 100%; 
+        margin-left: 0;
+        margin-top: 10%;
+    
+       }
+    
+    .color_kontakt{
+        display: none;
+}
+    
+    
+    
+    
+/*FOOTER*/
+    .footer{
+        padding: 80px 10% 80px 10%;
+    }
+}
+ 
+
+
+
+
+@media only screen and (max-width: 700px) {
+/*NAVIGASJON*/  
+    
+    .navigation_ul_li{
+    padding: 0 10px 30px 10px;
+}
+    
+    .navigation_img{
+        width: 22%;
+        padding: 20px 0 0 50px;
+    } 
+    
+    .navigation_text{
+        margin-left: 15%;
+        padding-top: 0; 
+        padding: 0;
+        margin-right: 50%;
+    }
+    
+    .navigation_text_p{
+        font-size: 0.8em;
+        padding-bottom: 6%;
+        font-weight: 400;
+    }
+    
+    .navigation_a{
+        z-index: 9999;
+    }
+    
+    .navigation_img{
+        width: 22%;
+        padding: 20px 0 0 12%;
+    }
+    
+    #navigation_bar{
+        margin: 30px 12% 0 0;
+    }
+    
+    #navigation_bar_close{
+        margin: 30px 12% 0 0;
+    }
+    
+    .navigation_nav{
+        padding-right: 50px;
+    }
+    
+    #navigation_bar{
+        font-size: 1.8em;
+    }
+    
+    #navigation_bar_close{
+        font-size: 2em;
+    }
+
+/*INDEX*/
+    
+    .index_body_title{
+        font-size: 20px;
+    }
+    
+    .index_header{
+        padding-top: 100px;
+    }
+    
+    .index_title{
+        font-size: 25px;
+    }
+    
+    .index_undertext{
+        font-size: 16px;
+    }
+        
+    .index_header_text{ 
+        padding: 50px 20% 0 15%;
+    }
+    
+    .index_header_color{
+        width: 90%;
+        height: 550px;
+    }
+    
+    .index_header_img{
+        width: 88%;
+        margin: 420px 0 0 12%;
+    }
+    
+    .index_body{
+        padding: 200% 12% 20% 12%;
+        margin: none;
+    }
+    
+    .index_cards{
+        display: block;
+        padding: none;
+        max-width: auto;
+        margin: 50px 10% 0 10%;
+    }
+    
+    .index_card_1, .index_card_2, .index_card_3{
+        margin-bottom: 50px;
+     
+        padding: 2% 2% 7% 2%;
+    }
+    
+    .index_facebook_cards{
+        padding: 10% 12% 10% 12%;
+    }
+    
+    .button{
+        background-color: white;
+    }
+    
+    #insta-feed{
+        display: block;
+    }
+    
+    
+    .instapic{
+        display: block;
+        margin: 0 5%;
+    }
+    
+    .instapicGrid{
+        padding-bottom: 5%;
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .instapicGrid:hover{
+        transform: none;
+    }
+    
+    
+/*BEHANDLINGER*/   
+    .dropdown_text{
+        font-size: 1em;
+    }
+    
+   .behandling_header{
+        padding-bottom: 50%;
+       padding-top: 100px;
+    } 
+    
+    .behandling_img{
+        width: 88%;
+        padding-left: 12%;
+        padding-top: 350px;
+    }
+    
+    .behandling_header_color{
+        width: 90%;
+        height: 500px;
+    }
+    
+    .behandling_text{ 
+        padding: 20px 20% 0 12%;
+        display: block;
+    }
+    
+   .behandling_body{    
+        padding: 115% 12% 15% 12%;
+    } 
+    
+    #dropdown{
+        margin: 5% 8%;
+        margin-top: 20%;
+    }
+    
+    #dropdown2{
+        margin: 5% 8%;
+        margin-bottom: 20%;
+    }
+    
+    .behandling_body_text{
+        float: none;
+        padding-top: 5%;
+        padding-left: 15%;
+        position: absolute;
+    }
+    
+    .behandling_color_2{
+        height: 700px;
+        margin-left: 10%;
+        width: 90%;
+        
+    }
+    
+    .behandling_img_2{
+        width: 90%;
+        padding-top: 560px;
+    }
+
+    .behandling_body_3{
+        padding-top: 180%;
+    }
+    
+    .behandling_body_text_3{
+        padding-top: 10%;
+        padding-left: 12%;
+        padding-right: 20%;
+    }
+    
+    .behandling_img_3{
+        width: 88%;
+        position: absolute;
+        z-index: 9;
+        padding-left: 12%;
+        padding-top: 350px;
+    }
+    
+    .behandling_color_3{
+        position: absolute;
+        background-color: #F2F1FF;
+        height: 500px;
+        width: 90%;
+        margin-top: 5%;
+}
+    
+    
+    .behandling_padding{
+        padding-top: 15%;
+    }
+    
+/*PRISER*/
+    
+    .priser_content{
+        padding: 500px 0 100px 0;
+    }    
+
+    
+    .index_card_1, .index_card_2, .index_card_3{
+        max-width: 100%;
+    }
+    
+    .index_tr_td-padding{
+        padding-left: 10%;
+    }
+    
+    .index_tr_td{
+        margin-right: 0;   
+    }
+    
+    .header_priser_img{
+        width: 80%;
+        padding-left: 20%;
+    }
+    
+    .header_priser_text{
+        padding: 180px 20% 0 12%;
+    }
+    
+    .header_priser_color{
+        width: 100%;
+        height: 420px;
+    }
+    
+    
+    
+    /*KONTAKT*/
+    
+    .header_kontakt{
+        display: inline-grid;
+        position: relative;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 2;
+        grid-gap: 10px;
+        margin: 150px 12% 0 12%;
+    }
+    
+    
+    .header_text_priser{
+        grid-row: 1;
+        grid-column: 1/3;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+    
+    .header_img_kontakt{
+        grid-row: 2;
+    }
+    
+    .img_kontakt_1{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .content_infotext_kontakt{
+        display: block;
+        margin: 50px 12%;
+    }
+
+    .infotext_kontakt{
+        padding: 10% 8%;
+    }
+
+    .infotext_h1{
+        text-align: center;
+        color: #653B80;
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    .infotext_p{
+        text-align: center;
+        font-weight: 300;
+        padding-top: 6%;
+    }
+    
+    
+    .content_om_kontakt{
+        display: block;
+        margin: 100px 12%;
+    }
+    
+    .om_img{
+        width: 100%;
+    }
+    
+    .om_text_kontakt{
+        padding-top: 30px;
+        padding-right: 0;
+    }
+    
+    
+    .kontaktinfo_kontakt{
+        display: block;
+        margin: 100px 12% 100px 12%;
+    }
+    
+    .kontaktinfo{
+        display: block;
+    }
+    
+    #map{
+        height: 250px;
+        width: 100%; 
+        margin-left: 0;
+        margin-top: 10%;
+    
+       }
+    
+    
+    .color_kontakt{
+        display: none;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-column-gap: 5%;
+        padding-bottom: 20%;
+    }
+    
+    
+/*FOOTER*/
+    .footer{
+        padding: 0 0 80px 15%;
+        width: auto;
+    }
+    
+    .footer_grid{
+        display: block;
+        padding-top: 50px;
+    }
+    
+    .footer_grid_padding{
+        padding-top: 50px;
+    }
+    
+    .fa-facebook{
+        font-size: 3em;
+        margin-left: 5%;
+        position: absolute;
+    }
+    
+    .button_footer{
+        margin-top: 25%;
+        margin-right: 60%;
+        padding: 3px 20px;
+        font-size: 1.2em;
+        position: relative;
+        text-decoration: none;
+    }
+    
+    .footer_text_right{
+        padding-left: 8.5%;
+    }
+}
+
