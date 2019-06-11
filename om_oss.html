@@ -14,9 +14,48 @@
         
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNhrBLgayeY7Dun7cax27_Ys3zSJHFCMs" async defer></script>
         
-	</head>
+         <!--Cookies-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+        <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#edeff5",
+              "text": "#838391"
+            },
+            "button": {
+              "background": "#4b81e8"
+            }
+          },
+          "theme": "edgeless",
+          "content": {
+            "message": "Nettsiden bruker informasjonskapsler (Cookies) for en optimal opplevelse.",
+            "dismiss": "Godta",
+            "link": "Mer informasjon"
+          }
+        })});
+        </script>
+        
+    </head>
     
 	<body>
+        
+        
+        
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135262231-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-135262231-3');
+    </script>
+        
+        
+        
         
     <div class="navigation">
         
@@ -178,7 +217,7 @@
                     </div>
             </div>
             
-           <div id="map"></div>
+           <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1827.5043122521613!2d7.174108915964351!3d62.739167482978964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4611541dec107bbd%3A0x33e50b59e62c4edd!2sMolde+Akupunktur+AS!5e0!3m2!1sno!2sno!4v1560250965374!5m2!1sno!2sno"  frameborder="0" style="border:0" allowfullscreen></iframe></div>
             
             <div class="color_kontakt"></div>
         </div>
@@ -213,7 +252,6 @@
         </div>
     </footer> 
         
-        <script src="javascript_googlemaps.js"></script>
         <script src="javascript_navigasjon.js"></script>
         
 	</body>

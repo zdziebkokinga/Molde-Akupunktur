@@ -12,9 +12,43 @@
         
         <meta name="description" content="Behandling med klassisk akupunktur, triggerpunktbehandling, kopping og massasje. Tjenester: triggerpunktbehandling, klassisk akupunktur, modningsakupunktur, kopping, massasje og gravid-massasje.">
         
+        <!--Cookies-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+        <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#edeff5",
+              "text": "#838391"
+            },
+            "button": {
+              "background": "#4b81e8"
+            }
+          },
+          "theme": "edgeless",
+          "content": {
+            "message": "Nettsiden bruker informasjonskapsler (Cookies) for en optimal opplevelse.",
+            "dismiss": "Godta",
+            "link": "Mer informasjon"
+          }
+        })});
+        </script>
 	</head>
 	<body>
+        
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135262231-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-135262231-3');
+    </script>
+        
+        
     <div class="navigation">
         <a href="index.html"><img class="navigation_img" src="images/Transparent_Logo_Molde%20Akupunktur%20as.png" alt="Molde Akupunktur logo"></a>
         
@@ -181,6 +215,7 @@
         
         <script src="javascript_navigasjon.js"></script>
         <script src="javascript_dropwodn.js"></script>
+        
 	</body>
     
     

@@ -797,12 +797,12 @@ body{
     margin-top: 15%;
 }
 
-#map{
-    height: 500px;
-    width: 250%; 
-    margin-left: 25%;
-    margin-top: 10%;
-    
+#map iframe{
+    width: 145%;
+    height: 80%;
+    position: relative;
+    margin-top: 20%;
+    margin-left: -15%;
        }
 
 .kart_kontakt{

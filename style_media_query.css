@@ -210,7 +210,7 @@
         grid-gap: 150px;
     }
     
-    #map{
+    #map iframe{
         height: 250px;
         width: 100%; 
         margin-left: 0;
@@ -569,7 +569,7 @@
         display: block;
     }
     
-    #map{
+    #map iframe{
         height: 250px;
         width: 100%; 
         margin-left: 0;
