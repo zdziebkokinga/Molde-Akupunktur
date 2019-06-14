@@ -16,29 +16,25 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         
         <!--Cookies-->
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-        
-        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-        <script>
-        window.addEventListener("load", function(){
-        window.cookieconsent.initialise({
-          "palette": {
-            "popup": {
-              "background": "#edeff5",
-              "text": "#838391"
-            },
-            "button": {
-              "background": "#4b81e8"
-            }
-          },
-          "theme": "edgeless",
-          "content": {
-            "message": "Nettsiden bruker informasjonskapsler (Cookies) for en optimal opplevelse.",
-            "dismiss": "Godta",
-            "link": "Mer informasjon"
-          }
-        })});
-        </script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#fafafa"
+    },
+    "button": {
+      "background": "#a962d4",
+      "text": "#ffffff"
+    }
+  },
+  "content": {
+    "href": "https://www.moldeakupunktur.no/cookies.html"
+  }
+})});
+</script>
         
 	</head>
 
@@ -219,10 +215,19 @@
                 
             <div class="footer_grid_padding">
                 <a href="https://www.facebook.com/MoldeAkupunkturAs/" target="blank"><i class="fab fa-facebook"></i></a>
+                
+                <a href="https://www.instagram.com/moldeakupunktur/"><i class="fab fa-instagram"></i></a>
+                
                 <a href="https://moldeakupunktur.onlinebooq.net/"><p class="button_footer">bestill time</p></a>
                 
             </div>
+        
         </div>
+        
+            <div class="footer_infotext">
+                <p class="footer_infotext_title">© Molde Akupunktur AS<br>Design og utvikling: Kinga Zdziebko</p>    
+                <a class="footer_infotext_title" href="cookies.html">Cookies</a>
+            </div>
     </footer>       
         <script src="javascript_instagram.js"></script>
         <script src="javascript_navigasjon.js"></script>

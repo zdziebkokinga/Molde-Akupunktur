@@ -251,14 +251,16 @@ body{
     padding-left: 5px;
 }
 
-.fa-facebook{
+.fa-facebook, .fa-instagram{
     margin-top: 4%;
     font-size: 30px;
     color: #8E73B5;
     transition: all 0.4s;
+    padding-right: 20px;
+    margin-left: 10px;
 }
 
-.fa-facebook:hover{
+.fa-facebook:hover, .fa-instagram:hover{
     color: #653B80;
     transition: all 0.4s;
 }
@@ -847,11 +849,66 @@ body{
 }
 
 
+/*COOKIES*/
+
+
+.cookies{
+    margin: 15% 25%;
+}
+
+.cookies_title{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 50px 0 10px 0;
+}
+
+.cookies_text{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.cookies_ul{
+    margin: 5% 2%;
+    text-decoration: none;
+}
+
+.cookies_li{
+    padding: 1%;
+}
+
+.cookies_link{
+    text-decoration: underline;
+    color: black;
+    font-size: 1em;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+.cookies_link:hover{
+    color: #8E73B5;
+}
+
+.table{
+    margin: 0 0 5% 0;
+    font-size: 0.8em;
+}
+
+
+.table_th{
+    padding: 2%;
+    background-color: #F2F1FF;
+}
+
+.table_td{
+    padding: 2%;
+}
+
 
 /*FOOTER*/
 .footer{
     display: block;
-    padding: 80px 0 80px 15%;
+    padding: 80px 10% 80px 10%;
     background-color: #F2F1FF;
 }
 
@@ -859,7 +916,7 @@ body{
     width: 100%;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 20px;
 }
 
 .footer_title{
@@ -880,7 +937,7 @@ body{
     position: absolute;
     z-index: 999;
     margin-top: 15px;
-    margin-left: -2%;
+
     padding: 2px 15px;
     border: 1px solid white;
     border-radius: 50px;
@@ -916,4 +973,18 @@ body{
 .button_footer:hover::before{
 	opacity: 1;
 	width: 100%;
+}
+
+
+.footer_infotext{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.footer_infotext_title{
+    font-size: 12px;
+    font-weight: 300;
+    display: inline;
+    
+    padding-right: 50px;
 }

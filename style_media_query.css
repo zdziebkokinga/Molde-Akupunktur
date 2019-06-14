@@ -223,12 +223,26 @@
 }
     
     
+/*COOKIES*/ 
     
+.cookies{
+    margin: 15% 15%;
+}
     
 /*FOOTER*/
     .footer{
         padding: 80px 10% 80px 10%;
     }
+    
+    
+    .footer_title{
+    font-size: 18px;
+}
+
+.footer_text{
+    font-size: 11px;
+}
+    
 }
  
 
@@ -588,7 +602,17 @@
         grid-column-gap: 5%;
         padding-bottom: 20%;
     }
+  
     
+/*COOKIES*/
+    .cookies{
+    margin: 20% 12% 15% 12%;
+}
+    
+    .table{
+        margin-left: -5%;
+        font-size: 0.6em;
+    }    
     
 /*FOOTER*/
     .footer{
@@ -605,14 +629,13 @@
         padding-top: 50px;
     }
     
-    .fa-facebook{
+    .fa-facebook, .fa-instagram{
         font-size: 3em;
-        margin-left: 5%;
-        position: absolute;
+        margin-left: 3%;
     }
     
     .button_footer{
-        margin-top: 25%;
+        margin-top: 5%;
         margin-right: 60%;
         padding: 3px 20px;
         font-size: 1.2em;
